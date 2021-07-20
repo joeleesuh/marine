@@ -1,0 +1,431 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.esrl.noaa.gov/outreach/8th-grade-science-days/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Jul 2021 19:16:26 GMT -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	
+
+	<meta name="keywords" content="NOAA, ESRL, Earth System Research Laboratories, NOAA Boulder, 8th Grade Science Days">
+
+	<meta name="description" content="8th Grade Science Days at NOAA Boulder">
+	<meta name="DC.description" content="8th Grade Science Days at NOAA Boulder" >
+	
+
+	<title>NOAA ESRL: 8th Grade Science Days</title><meta name="DC.title" content="NOAA ESRL: 8th Grade Science Days" >
+	
+
+	<!-- Bootstrap Core CSS -->
+	<link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="../../css/esrl.css" rel="stylesheet">
+
+	<!-- Custom Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,600,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,700" rel="stylesheet">
+	<link href="../../css/fontawesome-5.8.1/css/all.css" rel="stylesheet">
+	<script defer src="../../css/fontawesome-5.8.1/js/all.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="../../../code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../../js/jquery.cookie.js"></script>
+	<script src="../../../cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="../../../maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+ 
+$(function() {
+
+  $('#close_alert_primary').click(function( e ){
+    e.preventDefault();
+
+    $.cookie('alert-primary', 'closed', { expires: 1,  path: '/' });
+    $("body").removeClass("body_alert");
+
+  });
+
+
+  if( $.cookie('alert-primary') === 'closed' ){
+    $('.alert-primary').hide();
+    $("body").removeClass("body_alert");
+  }
+
+});
+</script>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="../../favicon.png" sizes="32x32">  
+
+<style>
+.alert-danger {
+    color: white;
+    background-color: #eb1a3d;
+    text-align: center;
+    border-radius: 0px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="d-none alert alert-danger alert-dismissible mb-0 rounded-0" style="font-size: 15px;">
+    <script>
+      $("body").addClass("body_alert");
+    </script>
+	<i class="fas fa-exclamation-triangle"></i> <strong>OUTAGE NOTICE: The ESRL website may be unavailable intermittently between April 19-22 due to planned maintenance.</strong>
+	<button id="close_alert_primary" type="button" class="close" data-dismiss="alert" aria-label="Close" style="padding-right:21px;color:#0056b3;opacity:.8;">
+    	<span aria-hidden="true" style="font-size:22px;color:white;">&times;</span>
+    </button>
+</div>
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-light navbar-expand-lg sticky-top">
+	<div class="container-fluid">
+		<div class="navbar-brand d-none d-md-block">
+			<a href="../../index.html"><img src="../../img/noaa-logo.png" width="50" title="Link to noaa.gov" alt="NOAA Logo"></a>
+			<a href="../../index.html">Earth System Research Laboratories</a>
+		</div>
+		<div class="navbar-brand d-block d-md-none d-lg-none">
+			<a href="../../index.html"><img src="../../img/noaa_notext.svg" width="30" title="Link to noaa.gov" alt="NOAA Logo"> NOAA ESRL</a>
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			<ul class="navbar-nav justify-content-center ml-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="../../about/index.html">Overview</a>
+						<a class="dropdown-item" href="../../calendar/index.html">Calendar</a>
+						<a class="dropdown-item" href="../../about/jobs.html">Employment</a>
+						<a class="dropdown-item" href="../../about/visiting.html">Visiting NOAA Boulder</a>
+						<a class="dropdown-item" href="../../about/nbdc.html">NOAA Boulder Directors Council</a>						
+					</div>					
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Research</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="../../research/index.html">Overview and Links</a>
+						<a class="dropdown-item" href="../../research/reviews/index.html">Science Reviews</a>
+						<a class="dropdown-item" href="../../csl/research/index.html">Chemical Sciences Laboratory</a>
+						<a class="dropdown-item" href="https://gml.noaa.gov/about/research.html">Global Monitoring Laboratory</a>
+						<a class="dropdown-item" href="https://gsl.noaa.gov/">Global Systems Laboratory</a>
+						<a class="dropdown-item" href="https://psl.noaa.gov/research/">Physical Sciences Laboratory</a>
+					</div>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="../../news/index.html">News</a></li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Outreach</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="../index.html">Main Page</a>
+						<a class="dropdown-item" href="index.html">8th Grade Science Days</a>
+					</div>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">People</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="../../contact/index.html">Contact Us</a>
+						<a class="dropdown-item" href="../../staff/index.html">Staff</a>
+					</div>
+				</li>
+				<!--<li class="nav-item"><a class="nav-link" href="/calendar/"><i class="fas fa-calendar-alt"></i></a> </li>-->
+			</ul>
+
+			<form class="ml-auto form-inline" method="get" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+				<input type="hidden" name="affiliate" value="noaa_esrl">
+				<div class="input-group">
+					<input class="form-control" type="text" name="query" id="query-field" placeholder="Search ESRL...">
+					<div class="input-group-append">
+						<button class="btn" type="submit" value="search">
+							<i class="fa fa-search"></i>
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</nav>
+
+
+ 
+
+	<div class="container-responsive" style="background-color: #e9ecef;">
+	<div class="container">
+		<ul class="breadcrumb">
+			<li class="breadcrumb-item"><a href="../../index.html"><i class="fa fa-home"></i> Home</a></li>
+			
+			
+			<li class="breadcrumb-item"><span id="breadCrumbParent"><a href="../index.html">Outreach</a></span></li>
+			<li class="breadcrumb-item active"><span id="breadCrumb">8th Grade Science Days</span></li>
+		</ul>
+	</div>
+</div>
+
+
+
+<!-- Page Content -->
+<main>
+
+
+
+<style>
+.hero-image {
+  background-image: url("../../about/img/nbdc/2019June8DSRC.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-text h1 {
+	color: white;
+    text-shadow: 1px 1px 4px #000000;
+}
+.card-body {
+	padding: 10px 10px 15px 10px;
+}
+
+/* override card hover actions */
+.card:not(.card-plain):not(.card-price):hover {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  box-shadow: 0 32px 44px -24px rgba(0, 0, 0, 0.23), 0 20px 25px 0px rgba(0, 0, 0, 0.12), 0 15px 10px -10px rgba(0, 0, 0, 0.2);
+}
+
+.row.is-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.is-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+</style>
+
+<div class="subpage" style="margin: -50px 0 0 0;">
+
+	<div class="hero-image">
+	  <div class="hero-text">
+		<h1 class="display-4 text-center">8th Grade Science Days</h1>
+	  </div>
+	</div>
+		
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			<p class="description">
+			Welcome to <strong>NOAA Boulder’s Virtual 8th Grade Science Days</strong>. We are excited
+			to share a bit of our science with you. From studying the oceans to solar flares,
+			NOAA has researchers in a wide range of scientific topics. Put on your scientist
+			hat and take your time to look around at the videos and activities we have prepared
+			for you to see what it would be like to be one of our scientists in these various
+			fields!
+			</p>
+			</div>
+		</div>
+		<br />
+		<div class="row equal justify-content-center">
+
+			<div class="col-md-4 col-sm-6 d-flex">
+				<div class="card text-center">
+					<div class="card-header">
+						<h5>Big Waves Of The Past</h5>
+					</div>
+					<div class="card-body">	
+						<p class="card-text">A study of Tsunamis</p>
+						<img src="2020/img/Tsunami.png" alt="NOAA Tsunami detector in the ocean" /><br />
+						<a href="2020/pdf/1960-Tsunami.pdf" class="btn btn-primary"><i aria-hidden="true" class="far fa-edit"></i> Activity</a> <a href="https://youtu.be/nqciMH2apmM" title="Offsite link to Youtube" class="btn btn-primary"><i aria-hidden="true" class="fab fa-youtube"></i> Video</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 d-flex">
+				<div class="card text-center">
+					<div class="card-header">
+						<h5>The Particles We Breathe</h5>
+					</div>
+					<div class="card-body">	
+						<p class="card-text">How do we know what’s in the air?</p>
+						<img src="2020/img/Air.png" alt="Smog over a city" width="100%" /><br />
+						<a href="2020/pdf/Layers-of-the-Atmosphere.pdf" class="btn btn-primary"><i aria-hidden="true" class="far fa-edit"></i> Activity</a> <a href="https://youtu.be/kYBWpahQa-E" title="Offsite link to Youtube" class="btn btn-primary"><i aria-hidden="true" class="fab fa-youtube"></i> Video</a> 
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 d-flex">
+				<div class="card text-center">
+					<div class="card-header">
+						<h5>See the World From Home</h5>
+					</div>
+					<div class="card-body">	
+						<p class="card-text">Learn with Science On a Sphere</p>
+						<img src="2020/img/SOS.png" alt="A school group viewing a dataset on Science On a Sphere" /><br />
+						<a href="2020/pdf/SOS-Explorer-scavenger-hunt.pdf" class="btn btn-primary"><i aria-hidden="true" class="far fa-edit"></i> Activity</a> <a href="https://youtu.be/doRdeDKwTNo" title="Offsite link to Youtube" class="btn btn-primary"><i aria-hidden="true" class="fab fa-youtube"></i> Video</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-6 d-flex">
+				<div class="card text-center">
+					<div class="card-header">
+						<h5>From Fact to Fiction</h5>
+					</div>
+					<div class="card-body">	
+						<p class="card-text">Is weather in movies accurate?</p>
+						<img src="2020/img/Weather_movies.png" alt="An NWS web page with a magnifying glass superimposed over part of it" />
+						<a href="2020/pdf/Fact-to-Fiction.pdf" class="btn btn-primary"><i aria-hidden="true" class="far fa-edit"></i> Activity</a> <a href="https://youtu.be/NcBENWuDmJE" title="Offsite link to Youtube" class="btn btn-primary"><i aria-hidden="true" class="fab fa-youtube"></i> Video</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-6 d-flex">
+				<div class="card text-center">
+					<div class="card-header">
+						<h5>A Year In The Arctic</h5>
+					</div>
+					<div class="card-body">	
+						<p class="card-text">Join the team studying Arctic climate</p>
+						<img src="2020/img/Mosaic.png" alt="NOAA's MOSAIC Arctic team poses in front of a ship" /><br />
+						<a href="2020/pdf/A-Year-in-the-Arctic.pdf" class="btn btn-primary"><i aria-hidden="true" class="far fa-edit"></i> Activity</a> <a href="https://youtu.be/JmsnkjLjt1c" title="Offsite link to Youtube" class="btn btn-primary"><i aria-hidden="true" class="fab fa-youtube"></i> Video</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-6 d-flex">
+				<div class="card text-center">
+					<div class="card-header">
+						<h5>Research from Ships to Planes</h5>
+					</div>
+					<div class="card-body">	
+						<p class="card-text">A look at the NOAA Corps</p>
+						<img src="2020/img/NOAA_Corps.png" alt="A female NOAA Corps aviator" /><br />
+						<a href="2020/pdf/NOAA-aircraft-and-ships.pdf" class="btn btn-primary"><i aria-hidden="true" class="far fa-edit"></i> Activity</a> <a href="https://youtu.be/7mVrG84QtRU" title="Offsite link to Youtube" class="btn btn-primary"><i aria-hidden="true" class="fab fa-youtube"></i> Video</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-md-4-offset-2 col-sm-6 d-flex">
+				<div class="card text-center">
+					<div class="card-header">
+						<h5>Weather in Space</h5>
+					</div>
+					<div class="card-body">	
+						<p class="card-text">Find out what the sun can do</p>
+						<img src="2020/img/Sun.png" alt="The sun" /><br />
+						<a href="2020/pdf/Space-Weather.pdf" class="btn btn-primary"><i class="far fa-edit"></i> Activity</a> <a href="https://youtu.be/1UX25R-sL_U" class="btn btn-primary"><i aria-hidden="true" class="fab fa-youtube"></i> Video</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-6 d-flex">
+				<div class="card text-center">
+					<div class="card-header">
+						<h5>Forecasting the Future</h5>
+					</div>
+					<div class="card-body">	
+						<p class="card-text">Jump into the shoes of a forecaster</p>
+						<img src="2020/img/NWS.png" alt="A forecaster working in a weather forecast office" /><br />
+						<a href="2020/pdf/Forecasting.pdf" class="btn btn-primary"><i aria-hidden="true" class="far fa-edit"></i> Activity</a> <a href="2020/pdf/Weather-in-the-World.pdf" class="btn btn-primary"><i aria-hidden="true" class="far fa-edit"></i> Activity</a> <a href="https://youtu.be/s5Nu5DmFN10" title="Offsite link to Youtube" class="btn btn-primary"><i aria-hidden="true" class="fab fa-youtube"></i> Video</a>
+					</div>
+				</div>
+			</div>
+
+		</div>						
+
+	</div><!--/.container-->
+</div><!--/.subpage-->
+
+</main>
+
+<section class="footer bg-dark connect">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<h4>Mailing Address</h4>
+				<p class="address">
+				NOAA/ESRL<br />
+				325 Broadway<br />
+				Boulder, CO 80305-3328
+				</p>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<h4>Looking for someone?</h4>
+				<dl class="bottom-spacer">
+				<dd><a href="https://nsd.rdc.noaa.gov/"><i class="fas fa-external-link-square-alt"></i> NOAA Nationwide Staff</a></dd>
+				</dl>
+			</div>
+
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<h4>More</h4>
+				<dl class="bottom-spacer">
+					<dd><a href="https://www.noaa.gov/protecting-your-privacy">Privacy Policy</a></dd>
+					<dd><a href="https://www.cio.noaa.gov/services_programs/info_quality.html">Information Quality</a></dd>
+					<dd><a href="https://www.noaa.gov/disclaimer">Disclaimer</a></dd>
+					<dd><a href="https://www.usa.gov/">USA.gov</a></dd>
+					<dd><a href="../../survey/index.html">Take Our Survey</a></dd>
+					<dd><a href="mailto:webmaster.esrl&#64;noaa.gov">Webmaster</a></dd>
+					</dl>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<h4>Follow Us</h4>
+				<dl class="bottom-spacer">
+				<dd><a href="https://www.facebook.com/NOAAESRL"><i class="fab fa-facebook-square text-center"></i> Facebook</a></dd>
+				<dd><a href="https://twitter.com/NOAA_ESRL"><i class="fab fa-twitter-square text-center"></i> Twitter</a></dd>
+				<dd><a href="https://www.youtube.com/user/NOAAESRL"><i class="fab fa-youtube-square text-center"></i> YouTube</a></dd>
+				<dd><a href="https://www.flickr.com/photos/noaa_esrl"><i class="fab fa-flickr text-center"></i> Flickr</a></dd>
+				</dl>
+			</div>
+		</div>
+		<hr />
+		<div class="row text-center">
+			<div class="col-lg-12">
+				<a href="https://www.commerce.gov/">U.S. Department of Commerce</a><br />
+				<a href="https://www.noaa.gov/">National Oceanic and Atmospheric Administration</a><br />
+				<a href="https://research.noaa.gov/">Office of Oceanic and Atmospheric Research</a></p>
+			</div>
+		</div> <!-- /.row -->
+		
+	</div>
+</section>
+
+</body>
+
+<!-- Mirrored from www.esrl.noaa.gov/outreach/8th-grade-science-days/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Jul 2021 19:16:33 GMT -->
+</html>
+

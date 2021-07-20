@@ -1,0 +1,406 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.esrl.noaa.gov/about/nbdc.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Jul 2021 19:15:44 GMT -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	
+
+	<meta name="keywords" content="NOAA, ESRL, Earth System Research Laboratories, NOAA Boulder Directors Council, NBDC">
+
+	<meta name="description" content="NOAA Boulder Directors Council page">
+	<meta name="DC.description" content="NOAA Boulder Directors Council page" >
+	
+
+	<title>NOAA Boulder Directors Council</title><meta name="DC.title" content="NOAA Boulder Directors Council" >
+	
+
+	<!-- Bootstrap Core CSS -->
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="../css/esrl.css" rel="stylesheet">
+
+	<!-- Custom Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,600,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,700" rel="stylesheet">
+	<link href="../css/fontawesome-5.8.1/css/all.css" rel="stylesheet">
+	<script defer src="../css/fontawesome-5.8.1/js/all.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="../../code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+	<script src="../../cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="../../maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+ 
+$(function() {
+
+  $('#close_alert_primary').click(function( e ){
+    e.preventDefault();
+
+    $.cookie('alert-primary', 'closed', { expires: 1,  path: '/' });
+    $("body").removeClass("body_alert");
+
+  });
+
+
+  if( $.cookie('alert-primary') === 'closed' ){
+    $('.alert-primary').hide();
+    $("body").removeClass("body_alert");
+  }
+
+});
+</script>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="../favicon.png" sizes="32x32">  
+
+<style>
+.alert-danger {
+    color: white;
+    background-color: #eb1a3d;
+    text-align: center;
+    border-radius: 0px;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="d-none alert alert-danger alert-dismissible mb-0 rounded-0" style="font-size: 15px;">
+    <script>
+      $("body").addClass("body_alert");
+    </script>
+	<i class="fas fa-exclamation-triangle"></i> <strong>OUTAGE NOTICE: The ESRL website may be unavailable intermittently between April 19-22 due to planned maintenance.</strong>
+	<button id="close_alert_primary" type="button" class="close" data-dismiss="alert" aria-label="Close" style="padding-right:21px;color:#0056b3;opacity:.8;">
+    	<span aria-hidden="true" style="font-size:22px;color:white;">&times;</span>
+    </button>
+</div>
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-light navbar-expand-lg sticky-top">
+	<div class="container-fluid">
+		<div class="navbar-brand d-none d-md-block">
+			<a href="../index.html"><img src="../img/noaa-logo.png" width="50" title="Link to noaa.gov" alt="NOAA Logo"></a>
+			<a href="../index.html">Earth System Research Laboratories</a>
+		</div>
+		<div class="navbar-brand d-block d-md-none d-lg-none">
+			<a href="../index.html"><img src="../img/noaa_notext.svg" width="30" title="Link to noaa.gov" alt="NOAA Logo"> NOAA ESRL</a>
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			<ul class="navbar-nav justify-content-center ml-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="index.html">Overview</a>
+						<a class="dropdown-item" href="../calendar/index.html">Calendar</a>
+						<a class="dropdown-item" href="jobs.html">Employment</a>
+						<a class="dropdown-item" href="visiting.html">Visiting NOAA Boulder</a>
+						<a class="dropdown-item" href="nbdc.html">NOAA Boulder Directors Council</a>						
+					</div>					
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Research</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="../research/index.html">Overview and Links</a>
+						<a class="dropdown-item" href="../research/reviews/index.html">Science Reviews</a>
+						<a class="dropdown-item" href="../csl/research/index.html">Chemical Sciences Laboratory</a>
+						<a class="dropdown-item" href="https://gml.noaa.gov/about/research.html">Global Monitoring Laboratory</a>
+						<a class="dropdown-item" href="https://gsl.noaa.gov/">Global Systems Laboratory</a>
+						<a class="dropdown-item" href="https://psl.noaa.gov/research/">Physical Sciences Laboratory</a>
+					</div>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="../news/index.html">News</a></li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Outreach</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="../outreach/index.html">Main Page</a>
+						<a class="dropdown-item" href="../outreach/8th-grade-science-days/index.html">8th Grade Science Days</a>
+					</div>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">People</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="../contact/index.html">Contact Us</a>
+						<a class="dropdown-item" href="../staff/index.html">Staff</a>
+					</div>
+				</li>
+				<!--<li class="nav-item"><a class="nav-link" href="/calendar/"><i class="fas fa-calendar-alt"></i></a> </li>-->
+			</ul>
+
+			<form class="ml-auto form-inline" method="get" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+				<input type="hidden" name="affiliate" value="noaa_esrl">
+				<div class="input-group">
+					<input class="form-control" type="text" name="query" id="query-field" placeholder="Search ESRL...">
+					<div class="input-group-append">
+						<button class="btn" type="submit" value="search">
+							<i class="fa fa-search"></i>
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</nav>
+
+
+ 
+
+
+<!-- Page Content -->
+<main>
+
+
+
+<div class="container-fluid" style="margin-bottom: 40px">
+ 	<img src="img/nbdc/2019June8DSRC.jpg" width="100%" alt="Looking west towards the David Skaggs Research Center in Boulder" />
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1 class="homeHeading text-center">NOAA Boulder Directors Council</h1>
+			<p>
+			The <strong>NOAA Boulder Directors Council (NBDC)</strong> represents the multiple NOAA line and staff
+			offices housed within the David Skaggs Research Center (DSRC). The NBDC provides a coordinated
+			operation and voice for NOAA within the larger, multi-agency Department of Commerce (DOC)
+			campus in Boulder, which NOAA shares with the National Institute of Standards and Technology
+			(NIST) and the National Telecommunications and Information Administration (NTIA). The NBDC
+			makes decisions and provides guidance to the Chair on major issues, such as campus policies,
+			financial resources, and space allocations.
+			</p>
+			<p>
+			The NBDC is comprised of ten voting members, representing each of the NOAA line and staff offices
+			in the DSRC, and is chaired by the Director of the Earth System Research Laboratories (ESRL). The
+			Executive Director of NOAA Boulder Laboratories and the General Services Administration (GSA)
+			Building Facilities Manager serve as non-voting, ex-officio members of the Council.
+			</p>
+			<h1 class="pt-3">Organization</h1>
+			<p>
+			The NBDC is comprised of eleven voting members, representing each of the NOAA line and staff offices
+			in the DSRC, and is chaired by the Director of the Earth System Research Laboratories (ESRL). The
+			Executive Director of NOAA Boulder Laboratories and the General Services Administration (GSA)
+			Building Facilities Manager serve as non-voting, ex-officio members of the Council.
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 pt-3">
+			<h2>Leadership</h2>
+		</div>
+	</div>
+	<div class="row">
+		<!--display on md or larger only -->
+		<div class="col-md-6 mb-3  pr-3 pb-3 pr-3 text-center d-none d-md-block ">
+			<img src="img/nbdc/NBDC%20chair%20label.png" width="350" alt="NBDC Chair: David Fahey, ESRL Director" />
+		</div>
+		<div class="col-md-6 mb-3  pr-3 pb-3 pr-3 text-center d-none d-md-block ">
+			<img src="img/nbdc/NBDC%20ED%20label.png" width="350" alt="NBDC Executive Director: Catherine Martin, NOAA Boulder Laboratories Executive Director" />
+		</div>
+		<!--display on xs and sm only -->
+		<div class="col-xs-12 mb-3 text-center d-md-none">
+			<img src="img/nbdc/NBDC%20chair%20label.png" style="padding: 0 20px 10px 20px; width: 100%;" alt="NBDC Chair: David Fahey, ESRL Director" />
+		</div>
+		<div class="col-xs-12 mb-3 text-center d-md-none">
+			<img src="img/nbdc/NBDC%20ED%20label.png" style="padding: 0 20px 20px 20px; width: 100%;" alt="NBDC Executive Director: Catherine Martin, NOAA Boulder Laboratories Executive Director" />
+		</div>
+	</div>	
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Voting Members</h2>
+			<h4>Office of Oceanic &amp; Atmospheric Research</h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 mb-3">
+			<a href="https://csl.noaa.gov/"><img src="img/nbdc/CSL%20label.png" width="100%" alt="Chemical Sciences Laboratory: David Fahey, Director" /></a>
+		</div>
+		<div class="col-md-6 mb-3">
+			<a href="https://gsl.noaa.gov/"><img src="img/nbdc/GSL%20label.png" width="100%" alt="Global Systems Laboratory: Jennifer Mahoney, Director" /></a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 mb-3">
+			<a href="https://gml.noaa.gov/"><img src="img/nbdc/GML%20label.png" width="100%" alt="Global Monitoring Laboratory: James Butler, Director" /></a>
+		</div>
+		<div class="col-md-6 mb-3">
+			<a href="https://psl.noaa.gov/"><img src="img/nbdc/PSL%20label.png" width="100%" alt="Physical Sciences Laboratory: Robert Webb, Director" /></a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h4>National Weather Service</h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 mb-3">
+			<a href="https://www.weather.gov/bou/"><img src="img/nbdc/WFO%20label.png" width="100%" alt="Denver/Boulder Regional Weather Forecast Office: Jennifer Stark, Meteorologist In Charge" /></a>
+		</div>
+		<div class="col-md-6 mb-3">
+			<a href="https://www.swpc.noaa.gov/"><img src="img/nbdc/SWPC%20label.png" width="100%" alt="Space Weather Prediction Center: Clinton Wallace, Director" /></a>
+		</div>
+	</div>
+	<div class="row align-items-end">
+		<div class="col-md-6 mb-3">
+			<h4>National Environmental Satellite, Data, and Information Service</h4>
+			<a href="https://ngdc.noaa.gov/"><img src="img/nbdc/NCEI%20label.png" width="100%" alt="National Centers for Environmental Information's Center for Coasts, Oceans, and Geophysics, Erikc Kihn, Director" /></a>
+		</div>
+		<div class="col-md-6 mb-3">
+			<h4>National Ocean Service</h4>
+			<a href="https://geodesy.noaa.gov/"><img src="img/nbdc/NGS%20label.png" width="100%" alt="National Geodetic Survey, Derek van Westrum, Acting Gravity Section Chief" /></a>
+		</div>
+	</div>
+	<div class="row align-items-end">
+		<div class="col-md-6 mb-3">
+			<h4>Office of the Chief Administrative Officer</h4>
+			<img src="img/nbdc/FOD%20label.png" width="100%" alt="Facilities Operations Division: Christopher Sigle, Branch Chief" />
+		</div>
+		<div class="col-md-6 mb-3">
+			<h4>Office of the Chief Information Officer</h4>
+			<a href="https://noc.nwave.noaa.gov/"><img src="img/nbdc/NWave%20label.png" width="100%" alt="NOAA Enterprise Network: Robert Sears, Director" /></a>
+		</div>
+		<div class="col-md-6 mb-3">
+			<h4>Acquisition &amp; Grants Office</h4>
+			<a href="https://www.noaa.gov/organization/acquisition-grants"><img src="img/nbdc/AGO_WAD_label.png" width="100%" alt="Western Aquisition Division: Chad Hepp, Director" /></a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 pt-3">
+			<h2>Non-Voting Members</h2>
+		</div>
+	</div>
+	<div class="row">
+		<!--display on md or larger only -->
+		<div class="col-md-6 mb-3 pr-3 pb-3 pr-3 text-center d-none d-md-block">
+			<img src="img/nbdc/GSA%20label.png" width="350" alt="GSA: Kristi Leinen, GSA Senior Property Manager" />
+		</div>
+		<div class="col-md-6 mb-3 pr-3 pb-3 pr-3 text-center d-none d-md-block">
+			<img src="img/nbdc/Boulder%20Labs%20ED%20label.png" width="350" alt="Catherine Martin: NOAA Boulder Laboratories, Executive Director" />
+		</div>
+
+		<!--display on xs and sm only -->
+		<div class="col-xs-12 mb-3 text-center d-md-none">
+			<img src="img/nbdc/GSA%20label.png"  style="padding: 0 20px 10px 20px; width: 100%;" alt="GSA: Kristi Leinen, GSA Senior Property Manager" />
+		</div>
+		<div class="col-xs-12 mb-3 text-center d-md-none">
+			<img src="img/nbdc/Boulder%20Labs%20ED%20label.png" style="padding: 0 20px 10px 20px; width: 100%;" alt="Catherine Martin: NOAA Boulder Laboratories, Executive Director" />
+		</div>
+
+
+	</div>
+	<div class="row">
+		<div class="col-md-12 pt-3">
+			<h2>Subsidiary Organizations</h2>
+			<p>
+			The following committees and groups are considered subsidiary organizations of the NBDC and exist
+			to ensure smooth operation of the DSRC for the benefit of all NOAA Boulder staff.
+				<ul>
+					<li>Boulder Information Technology Committee (BITC)</li>
+					<li>Boulder Outreach Coordinating Committee (BOCC)</li>
+					<li>NOAA portion of the Boulder Labs Diversity Committee</li>
+					<li>NOAA portion of the Campus Fitness Committee</li>
+				</ul>
+			</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 pt-3 text-center">
+			<h5>NBDC point-of-contact for questions:<br />
+			<span style="font-weight: 400;">
+			Sheila Martinez<br />
+			<a href="mailto:sheila.k.martinez&#64;noaa.gov">sheila.k.martinez&#64;noaa.gov</a>
+			</span>
+			</h5>
+		</div>
+	</div>
+<hr />
+	<div class="row">	
+		<div class="col-md-12 pt-3 text-center text-muted">NBDC page designed by: Chelsea Thompson</div>
+	</div>
+</div>
+
+</main>
+
+<section class="footer bg-dark connect">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<h4>Mailing Address</h4>
+				<p class="address">
+				NOAA/ESRL<br />
+				325 Broadway<br />
+				Boulder, CO 80305-3328
+				</p>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<h4>Looking for someone?</h4>
+				<dl class="bottom-spacer">
+				<dd><a href="https://nsd.rdc.noaa.gov/"><i class="fas fa-external-link-square-alt"></i> NOAA Nationwide Staff</a></dd>
+				</dl>
+			</div>
+
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<h4>More</h4>
+				<dl class="bottom-spacer">
+					<dd><a href="https://www.noaa.gov/protecting-your-privacy">Privacy Policy</a></dd>
+					<dd><a href="https://www.cio.noaa.gov/services_programs/info_quality.html">Information Quality</a></dd>
+					<dd><a href="https://www.noaa.gov/disclaimer">Disclaimer</a></dd>
+					<dd><a href="https://www.usa.gov/">USA.gov</a></dd>
+					<dd><a href="../survey/index.html">Take Our Survey</a></dd>
+					<dd><a href="mailto:webmaster.esrl&#64;noaa.gov">Webmaster</a></dd>
+					</dl>
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+				<h4>Follow Us</h4>
+				<dl class="bottom-spacer">
+				<dd><a href="https://www.facebook.com/NOAAESRL"><i class="fab fa-facebook-square text-center"></i> Facebook</a></dd>
+				<dd><a href="https://twitter.com/NOAA_ESRL"><i class="fab fa-twitter-square text-center"></i> Twitter</a></dd>
+				<dd><a href="https://www.youtube.com/user/NOAAESRL"><i class="fab fa-youtube-square text-center"></i> YouTube</a></dd>
+				<dd><a href="https://www.flickr.com/photos/noaa_esrl"><i class="fab fa-flickr text-center"></i> Flickr</a></dd>
+				</dl>
+			</div>
+		</div>
+		<hr />
+		<div class="row text-center">
+			<div class="col-lg-12">
+				<a href="https://www.commerce.gov/">U.S. Department of Commerce</a><br />
+				<a href="https://www.noaa.gov/">National Oceanic and Atmospheric Administration</a><br />
+				<a href="https://research.noaa.gov/">Office of Oceanic and Atmospheric Research</a></p>
+			</div>
+		</div> <!-- /.row -->
+		
+	</div>
+</section>
+
+</body>
+
+<!-- Mirrored from www.esrl.noaa.gov/about/nbdc.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 20 Jul 2021 19:15:49 GMT -->
+</html>
+
